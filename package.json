@@ -2,7 +2,12 @@
   "name": "PostgreSqlPrac",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "knexsql.js",
+  "dependencies": {
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/MaxHalleran/Postgresql-Practice/issues"
   },
-  "homepage": "https://github.com/MaxHalleran/Postgresql-Practice#readme",
-  "dependencies": {
-    "pg": "^7.4.3"
-  }
+  "homepage": "https://github.com/MaxHalleran/Postgresql-Practice#readme"
 }
